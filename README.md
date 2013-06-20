@@ -27,7 +27,7 @@ Requirements:
 Sorting
 
     date
-
+    view
     search term
 
     price
