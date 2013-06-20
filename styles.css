@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+strong { font-weight: bold; }
+body { font-family:arial; }
+
+h1{
+	font:26px/100% Arial, Helvetica, sans-serif;
+}
+
+form{
+	font:12px/100% Arial, Helvetica, sans-serif;
+	color:#333;
+}
+
+form em{
+	font-size:12px;
+	font-style:italic;
+	color:#666;
+}
+
+.fieldset-wrapper{
+	background:#efefef;
+	border:1px solid #ddd;
+	padding:20px;
+	margin-bottom:20px;
+}
+
+fieldset{
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+legend{
+	font-weight:bold;
+	font-size:16px;
+	margin-bottom:10px;
+}
+
+label{
+	display:block;
+	margin:10px 0 5px;
+	font-size:14px;
+}
+	
+input,select,textarea{
+	font-size:12px;
+	color:#666;
+}
+
+input[type="text"], input[type="number"], input[type="email"]{
+	width:200px;
+	padding:4px;
+}
+
+
+textarea{
+	width:400px;
+	height:100px;
+	padding:4px;
+}
+
+/*******Form Validation*********/
+label.error, label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	color: red;
+	font-style: italic
+}
+div.error { display: none; }
+input.checkbox { border: none }
+input.error { border: 1px solid red; }
+.gray * { color: gray; }
+
+
+
+
+
+.green { color:green; }
+.red { color:red; }
+
+.vendors { border-left:1px solid #BBB; border-right:1px solid #BBB; width:400px; margin:40px auto; padding:20px 40px 40px; }
+
+ul { list-style-type:none; border:1px solid #bbb; display:inline-block; border-radius:5px; overflow:hidden; width:265px; }
+h2 { font-size:25px; font-weight:bold; margin-bottom:0px; }
+.vendors .info { font-size:10px; color:#666; display:block; margin:3px 0px 10px 3px; }
+
+li .vendor { width:245px; padding:10px; cursor:pointer; background-color:#F9F9F9; }
+li .vendor h3 { font-size:16px; font-weight:normal; }
+li .vendor h4 { font-size:12px; font-weight:normal; margin-top:5px; }
+li:nth-child(even) .vendor { background-color:#eee; }
+
+li.noresults { display:none; }
+
+.popups { display:none;} 
+.moreinfo { width:600px; margin:0px auto; position:absolute; height:400px; border:3px solid #bbb; background-color:white; z-index:130; overflow:hidden; color:#333; }
+.moreinfo .x { color:#000; position:absolute; top:5px; right:5px; font-size:14px; font-weight:bold; cursor:pointer; }
+.moreinfo h2 { font-size:20px; margin:25px 0px 0px 25px; }
+.moreinfo p { margin:10px 25px 0px 25px; line-height:18px; font-size:14px; }
+
+.vendorinfo { min-width:175px; float:left; margin:15px 35px 25px 25px; }
+.vendorinfo h5 { font-weight:normal; font-size:12px; color:#666; margin:10px 0px 5px; }
+address, .vendorinfo p { margin:5px 0px 15px; font-size:14px; line-height:18px; }
+
+#vendorsearch { margin:0px 0px 10px 0px; width:255px; }
+
+.button { font-family:arial; padding:8px 10px; text-transform:uppercase; font-weight:bold; font-size:14px; border:1px solid #7d99ca; border-radius:5px; display:inline-block; 
+	text-shadow:-1px -1px 0 rgba(0,0,0,0.3); box-shadow:#B4B5B5 1px 1px 1px; letter-spacing:-.1px;
+	color:#FFFFFF; cursor:pointer;
+	background-color:#3874CF; background-image: -webkit-gradient(linear, left top, left bottom, from(#3874CF), to(#7089b3));
+	background-image:-webkit-linear-gradient(top, #3874CF, #7089b3);
+	background-image:-moz-linear-gradient(top, #3874CF, #7089b3);
+	background-image:-ms-linear-gradient(top, #3874CF, #7089b3);
+	background-image:-o-linear-gradient(top, #3874CF, #7089b3);
+	background-image:linear-gradient(to bottom, #3874CF, #7089b3);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#3874CF, endColorstr=#7089b3);
+}
+.button:hover {
+	border:1px solid #5d7fbc;
+	background-color:#295dab; background-image: -webkit-gradient(linear, left top, left bottom, from(#295dab), to(#536F9D));
+	background-image:-webkit-linear-gradient(top, #295dab, #536F9D);
+	background-image:-moz-linear-gradient(top, #295dab, #536F9D);
+	background-image:-ms-linear-gradient(top, #295dab, #536F9D);
+	background-image:-o-linear-gradient(top, #295dab, #536F9D);
+	background-image:linear-gradient(to bottom, #295dab, #536F9D);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#295dab, endColorstr=#536F9D);
+}
+.overlay {
+	z-index:125;
+	top:0;
+	left:0;
+	width:100%; 
+	height:100%; 
+	position:fixed; 
+	background:#000;
+	opacity: .75; /* standard: ff gt 1.5, opera, safari */
+	-ms-filter: “alpha(opacity=75)”; /* ie 8 */
+	filter: alpha(opacity=75); /* ie lt 7 */
+	-khtml-opacity: .75; /* safari 1.x */
+	-moz-opacity: .75; /* ff lt 1.5, netscape */
+}
+
+
